@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js && npm start"
+    "start": "nodemon index.js  npm start"
   },
   "author": "vijay",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "mongoose": "^5.9.29"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "node":"14.17.6"
   }
 }
